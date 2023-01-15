@@ -1,0 +1,13 @@
+{
+  "name": "shello world",
+  "category": "pwn",
+  "description": "Write your first Windows shellcode! \n\n`nc win.chal.csaw.io 7778`",
+  "flag": "flag{I_w4nt3d_t0_j01n_y0ur_T34ms_p4rty_but_1_h4d_t0_jump_t0_4n0th3r_funct10n}",
+  "type": "dynamic",
+  "initial": 500,
+  "minimum": 50,
+  "decay": 275,
+  "internal_port": 7778,
+  "files": ["ShelloWorld.exe","ShelloWorldLib.dll","Dockerfile","socat-1.7.3.0-windows-master.zip"],
+  "box": "pwn.chal.csaw.io"
+}
