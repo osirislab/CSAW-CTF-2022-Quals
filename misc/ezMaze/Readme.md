@@ -4,7 +4,7 @@ Premise: This is an AI-based challenge. You will be given maze model from PyTorc
 
 ## Authors
 
-r3kapig
+Member@r3kapig
 
 ## Testers
 
