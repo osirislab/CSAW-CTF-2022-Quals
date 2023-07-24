@@ -1,0 +1,12 @@
+{
+    "name": "Android x86",
+    "category": "forensics",
+    "author": "Teaflower and gchip",
+    "description": "There are some secrets on this phone image. Please find the flag!\n\nhttps://csaw-22-main-bucket.s3.amazonaws.com/android_forensics_easy.zip",
+    "flag": "flag{ev1dence_n0t_del3ted}",
+    "box": "misc.chal.csaw.io",
+    "type": "dynamic",
+    "initial": 500,
+    "minimum": 50,
+    "decay": 275
+  }

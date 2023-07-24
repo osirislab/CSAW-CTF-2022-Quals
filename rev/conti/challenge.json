@@ -1,0 +1,13 @@
+
+{
+  "name": "Conti",
+  "category": "rev",
+  "description": "Can you recover my files :( my grandson downloaded a binary from a .pcap to send to a consultant...",
+  "flag": "flag{Cyb3r_Pun4_!$_n0W1}",
+  "type": "dynamic",
+  "initial": "500",
+  "minimum": "50",
+  "decay": "275",
+  "box": "rev.chal.csaw.io",
+  "files": [ "Conti.exe","encryptedFiles.zip" ]
+  }

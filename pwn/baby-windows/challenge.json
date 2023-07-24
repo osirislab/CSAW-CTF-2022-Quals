@@ -1,0 +1,13 @@
+{
+  "name": "baby windows",
+  "category": "pwn",
+  "description": "Pwn your first Windows binary! We made it easy and are providing all the code so you can get points for learning to use a new set of tools. \n\n`nc win.chal.csaw.io 7777`",
+  "flag": "flag{Wh4t_d0_y0u_w4n7_t0_pwn_t0d4y?}",
+  "type": "dynamic",
+  "initial": 500,
+  "minimum": 50,
+  "decay": 275,
+  "internal_port": 7777,
+  "files": ["BabyWindows.c","BabyWindowsLib.c","BabyWindows.exe","BabyWindowsLib.dll","BabyWindowsLib.h","Dockerfile","socat-1.7.3.0-windows-master.zip"],
+  "box": "pwn.chal.csaw.io"
+}
